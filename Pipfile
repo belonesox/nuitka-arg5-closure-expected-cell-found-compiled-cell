@@ -7,10 +7,8 @@ name = "pypi"
 numpy = "*"
 Cython = "*"
 Pillow = "*"
-scikit_learn = "*"
-scikit_image = "*"
 scipy = "*"
-nuitka = "*"
+nuitka = {editable = true, ref = "factory", git = "https://github.com/Nuitka/Nuitka.git"}
 
 [dev-packages]
 
