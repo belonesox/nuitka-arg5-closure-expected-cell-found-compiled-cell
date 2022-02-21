@@ -1,0 +1,60 @@
+﻿
+
+0.6.17.1 
+0.6.16.4
+0.6.18.1
+0.6.18.6
+0.6.19.1
+ 
+Traceback (most recent call last):
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\test.py", line 2, in <module>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\numpy\__init__.py", line 144, in <module numpy>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\numpy\core\__init__.py", line 23, in <module numpy.core>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\numpy\core\multiarray.py", line 80, in <module numpy.core.multiarray>
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\numpy\core\overrides.py", line 201, in decorator
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\numpy\core\overrides.py", line 183, in decorator
+RuntimeError: __code__ is not writable in Nuitka
+
+
+
+
+
+0.6.19.3
+
+Traceback (most recent call last):
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\test.py", line 4, in <module>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\stats\__init__.py", line 453, in <module scipy.stats>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\stats\_stats_py.py", line 44, in <module scipy.stats._stats_py>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\stats\distributions.py", line 8, in <module scipy.stats.distributions>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\stats\_distn_infrastructure.py", line 27, in <module scipy.stats._distn_infrastructure>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\integrate\__init__.py", line 92, in <module scipy.integrate>
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\integrate\_quadrature.py", line 31, in <module scipy.integrate._quadrature>
+  File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\scipy\integrate\_quadrature.py", line 24, in _copy_func
+TypeError: arg 5 (closure) expected cell, found compiled_cell
