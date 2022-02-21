@@ -7,7 +7,7 @@ name = "pypi"
 numpy = "*"
 Cython = "*"
 scipy = "*"
-nuitka = "==0.6.19.2"
+nuitka = {editable = true, ref = "factory", git = "https://github.com/Nuitka/Nuitka.git"}
 
 [dev-packages]
 
