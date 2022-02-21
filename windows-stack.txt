@@ -28,7 +28,7 @@ RuntimeError: __code__ is not writable in Nuitka
 
 
 
-0.6.19.3
+0.6.19.3 till factory
 
 Traceback (most recent call last):
   File "C:\projects\bugs\nuitka\NUITKA~2\TEST~1.DIS\test.py", line 4, in <module>
